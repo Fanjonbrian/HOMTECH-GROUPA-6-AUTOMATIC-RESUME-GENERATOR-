@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(239, 248, 239);
+}
+header{
+    background-color: black;
+    height: 80px;
+    border: solid;
+}
+.main{
+    border: solid;
+    border-radius: 15px;
+    background-color: grey;
+    margin-top: 10px;
+
+}
+.up{
+    display: flex;
+    flex-direction: column;
+
+}
+.pic{
+    height: 50%;
+    width: 10%;
+    border: solid;
+    margin-left: 40%;
+}
+.man{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 68%;
+}
+.right{
+    width: 68%;
+}
+#na{
+    margin-left: 45%;
+}

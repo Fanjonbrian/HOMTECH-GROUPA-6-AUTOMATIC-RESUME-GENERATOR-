@@ -1,0 +1,63 @@
+header{
+    border: solid;
+    height: 120vh;
+    width: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+input{
+    margin: 1vh;
+    height: 3%;
+    background-color: white;
+}
+nav{
+    width: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25ch;
+}
+ul{
+    background-color: white;
+}
+.sec1{
+    margin-left: 3vh;
+}
+.sec2{
+    margin-right: 3vh;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    width: 16vh;
+    margin-top: 1vh;
+}
+.list{
+    margin-top: 5vh;
+    width: 30vh;
+    height: 20vh;
+}
+#mar{
+    margin-left: 3vh;
+}
+img{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100px;
+}
+h3{
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

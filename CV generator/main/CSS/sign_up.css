@@ -1,0 +1,24 @@
+body{
+    background-color: whitesmoke;
+}
+button{
+    background-color: none;
+    color: green;
+}
+form{
+    display: inline-block;
+    border: solid;
+    border-radius: 10px;
+    width: 35%;
+    justify-content: center;
+   margin-top: 15%;
+    color: green;
+    background-color: none;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+
