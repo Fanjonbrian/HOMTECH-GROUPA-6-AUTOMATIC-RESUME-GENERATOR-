@@ -1,0 +1,26 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    display: flex;
+}
+
+.section {
+    border-right: solid grey;
+}
+
+.top {
+    display: flex;
+    background-color: aliceblue;
+}
+
+aside {
+    background-color: yellow;
+    padding-left: 10px;
+}
+
+.sec1 {
+    background-color: rgb(189, 241, 241);
+}

@@ -1,0 +1,32 @@
+.Main{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: green;
+}
+.third{
+    margin-left: 350px;
+}
+    nav{
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+    .sec4{
+        margin-left: 100px;
+    }
+    .left{
+        border-right: solid;
+        padding-right:100px;
+        border-top: 20px;
+    }
+
+    body {
+        background-color: aquamarine;
+    }

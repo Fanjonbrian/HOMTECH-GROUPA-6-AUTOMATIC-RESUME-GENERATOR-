@@ -1,0 +1,63 @@
+body{
+    background-color: whitesmoke;
+}
+.low{
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+#logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.left{
+    display: block;
+    justify-content: end;
+}
+.right{
+    display: block;
+    justify-content: right;
+}
+form{
+    border: solid;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 15px;
+    border-color: green;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: green;
+    
+}
+.first{
+    width: 60%;
+}
+.sec{
+    width: 60%;
+    background-image: url(../img/th.jfif);
+}
+.third{
+    width: 60%;
+}
+#but{
+    color: green;
+    background-color: black;
+    margin-left: 80%;
+    border-radius: 50% 0% 50% 0%;
+
+}

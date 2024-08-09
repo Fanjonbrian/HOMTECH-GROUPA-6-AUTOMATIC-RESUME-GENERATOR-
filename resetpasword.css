@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "open sans", sans-serif;
+} 
+body{
+width: 100%;
+padding: 0 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: grey;
+
+}
+.container{
+    width: 400px;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgba(255, 255,255,0,15);
+    backdrop-filter: blur(15px);
+    box-shadow: 10px ;
+    box-shadow: 10px 10px 10px 10px black;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.input-text{
+    position: relative;
+    border-bottom: 2px solid #fff;
+    margin: 15px 0;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.int{
+    display: flex;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+
+}
+.input-text label{
+    position: absolute;
+    top: 50%;
+    left:  0%;
+    transform: translateY(-50%);
+    
+}
+.input-text input{
+    width: 100%;
+    height: 40%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.forget{
+    display: flex;
+    align-items: center;
+    margin: 25px 0 30px 0;
+
+}
+#remember{
+    accent-color: green;
+
+}
+.forget label{
+    display: flex;
+    align-items: center;
+}
+.forget p{
+    color: #fff;
+    text-decoration: none;
+}
+.container a:hover{
+    text-decoration: underline;
+    color: black;
+
+}
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: blue;
+}
+
+
+
+

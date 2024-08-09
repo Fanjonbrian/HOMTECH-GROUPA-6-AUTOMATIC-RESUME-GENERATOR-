@@ -1,0 +1,88 @@
+body{
+background-color: whitesmoke;
+height: 80%;
+}
+.low{
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+#logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    height: 15px;
+}
+nav{
+display: flex;
+flex-direction: row;
+margin-top: 15px;
+}
+form{
+    display: block;
+    justify-content: right;
+border: solid;
+margin-top: 50px;
+margin-bottom: 50px;
+background-color: white;
+border-radius: 15px;
+border-color: green;
+
+}
+#logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+footer{
+display: flex;
+flex-direction: row;
+margin-top: 10%;
+background-color: black;
+color: green;
+margin-bottom: none;
+
+
+}
+.first{
+width: 60%;
+}
+.sec{
+width: 60%;
+background-image: url(../img/th.jfif);
+}
+.third{
+width: 60%;
+}
+#but{
+color: green;
+background-color: black;
+margin-left: 80%;
+border-radius: 50% 0% 50% 0%;
+}
+.real{
+    display: flex;
+    flex-direction: row;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 5px;
+}
+.left{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}

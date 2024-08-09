@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template02</title>
+    <link rel="stylesheet" href="../main/CSS/template02.css">
+</head>
+<body>
+<div class="main">
+    <div class="big">
+        <div class="left">
+        <h3><u>RESUME</u>
+        </h3>
+        <div class="down">
+           <p id="na"><label for="name">name:</label><input type="text" id="prime"></p> <br>
+            <p id="con"><label for="mobile">mobile:</label><input type="text" id="fcon"></p><br>
+            <p id="mal"><label for="Email">Email:</label><input type="Email" id="fmal"></p><br>
+            <p id="loca"><label for="Address">Address</label><input type="text" id="floca"></p><br>
+
+
+        </div>
+       </div>
+        <div class="right">
+
+        </div>
+
+    </div>
+   <div class="sec1">
+    <h2><B><u>JOB OBJECTIVE</u></B></h2><p id="obj"><input type="text" id="fobj"></p>
+
+   </div>
+   <div class="sec2">
+    <h2><B><u>WORK EXPERIENCE</u></B></h2>
+   <p id="exp"><textarea rows="5" cols="60" id="fexp"></textarea></p>
+   </div>
+   <div class="sec3">
+    <h2><B><u>EDUCATION</u></B></h2><p id="edu"><input type="text" id="fedu"></p>
+
+   </div>
+   <div class="sec3">
+    <h2><B><U>TECHNICAL QUALIFICATION</U></B></h2>
+        <p id="skil01"><textarea id="fskil01" cols="30" rows="10"></textarea></p>
+   </div>
+   <div class="sec3">
+    <h2><B><u>PERSONAL DETAILS</u></B></h2>
+    <p id="skil02"><label for="Date of birth" id>Date of Birth</label><input type="Date" id="fskil02"></p><br>
+    <p id="land01"><label for="Language">Language</label><input type="text" id="fland01"></p><br>
+
+   </div> 
+   <button id="sub"><h3 id="loop">GENERATE</h3></button>
+</div>
+<script>
+    document.getElementById("sub").onclick = function(){
+        user = document.getElementById("prime").value;
+        document.getElementById("na").textContent = (`${user}`);
+
+        contac = document.getElementById("fmal").value;
+        document.getElementById("mal").textContent = (`${contac}`);
+
+        
+        conta = document.getElementById("floca").value;
+        document.getElementById("loca").textContent = (`${conta}`);
+
+        
+        cont = document.getElementById("fobj").value;
+        document.getElementById("obj").textContent = (`${cont}`);
+        
+        conr = document.getElementById("fexp").value;
+        document.getElementById("exp").textContent = (`${conr}`);
+
+        
+        conn = document.getElementById("fskil01").value;
+        document.getElementById("skil01").textContent = (`${conn}`);
+
+        
+        cons = document.getElementById("fskil02").value;
+        document.getElementById("skil02").textContent = (`${cons}`);
+
+        
+        cof = document.getElementById("fland01").value;
+        document.getElementById("land01").textContent = (`${cof}`);
+
+        
+        contact = document.getElementById("fcon").value;
+        document.getElementById("con").textContent = (`Tell ${contact}`);
+
+        cofn = document.getElementById("fedu").value;
+        document.getElementById("edu").textContent = (`${cofn}`);
+
+        let bas = "SAVE ?";
+        document.getElementById("loop").textContent = (`${bas}`);
+
+        alert ("Make sure you screenshort and save");
+    }
+</script>
+    
+</body>
+</html>

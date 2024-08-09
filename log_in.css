@@ -1,0 +1,38 @@
+body{
+    background-color: whitesmoke;
+    
+
+}
+.main{
+    display: flex;
+    align-items: center;
+   
+}
+#akon{
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+}
+#zita{
+    background-color: black;
+    color: blue;
+    border-radius: 10%;
+}
+.low{
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 5%;
+
+}
+form{
+    height: 100px;
+    display: block;
+    justify-content: center;
+    border: solid;
+    border-radius: 15px;
+    width: fit-content;
+
+}
+
+

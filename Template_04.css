@@ -1,0 +1,51 @@
+body{
+ background-color: green;
+
+}
+.main {
+    display: block;
+    border: solid;
+    align-content: center;
+    justify-content: center;
+    width: fit-content;
+    margin-left: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.form_a{
+    display: flex;
+    border: solid;
+}
+
+aside{
+    margin-left:100px;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: green;
+    margin-left:00px;
+
+  
+}
+.first{
+    width: 60%;
+}
+.sec{
+    width: 60%;
+    background-image: url(../img/th.jfif);
+}
+.third{
+    width: 60%;
+}
+#but{
+    color: green;
+    background-color: black;
+    margin-left: 80%;
+    border-radius: 50% 0% 50% 0%;
+}

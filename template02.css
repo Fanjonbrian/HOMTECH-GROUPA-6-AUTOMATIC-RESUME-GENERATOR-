@@ -1,0 +1,25 @@
+h2{
+    background-color: gray;
+}
+.big{
+    display: flex;
+    flex-direction: row;
+
+}
+.right{
+    height: 50px;
+    border: solid;
+    background-image: url(../img/th.jfif);
+    width: 50px;
+    margin-left: 650px;
+
+}
+.main{
+    display: block;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-radius: 15px;
+    margin-left: 25%;
+}
